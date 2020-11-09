@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "main" : "learnyounode" 
+  },
+  "dependencies": {
+    "learnyounode": "^4.2.2"
+  }
+}

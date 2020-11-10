@@ -3,10 +3,6 @@ const urlToProvide = process.argv[2];
 
 http.get(urlToProvide, (response) => {
   response.on('data', (data) => {
-    console.log(data.toString()+'\n\r')
+    console.log(data.toString()+'\r');
   })
 });
-
-function callback (response) {
-    
-}
